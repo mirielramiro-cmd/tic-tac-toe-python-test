@@ -20,7 +20,7 @@ def vitoria(lista):
             return True
     else: 
         return False
-
+#Parte Gráfica do Terminal
 def print_tabuleiro():
     global tabuleiro
     linha1 = f" {tabuleiro[0]} | {tabuleiro[1]} | {tabuleiro[2]} "
@@ -58,5 +58,3 @@ while len(posicoes) > 0:
         break
 if len(posicoes) == 0 and vitoria(jogador) == False and vitoria(maquina) == False:
     print('Empate')
-#Parte gráfica no terminal
-#Como podemos criar a matriz?
